@@ -42,23 +42,9 @@ function Dashboard() {
       >
         Insights
       </h1>*/}
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          margin: "100px 150px 0px 150px",
-        }}
-      >
+      <div className="rowChart">
         <Intensity /> {/*the actual intensity component*/}
         <Likelihood /> {/*the actual likelihood component */}
-      </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          margin: "50px 150px 0px 150px",
-        }}
-      >
         <Relevance /> {/*the actual relevance component*/}
         <Year /> {/*the actual year component */}
       </div>
